@@ -147,6 +147,9 @@ header .studio-in-logo {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 
+  margin-left: auto;
+  margin-right: auto;
+  width: 696px;
   margin-bottom: 30px;
 }
 
@@ -264,7 +267,6 @@ header .studio-in-logo {
 .what-we-do-pics .pic:not(:last-child) {
   margin-right: var(--card-set-gap);
 }
-
 
 .what-we-do-title,
 .section-comand-title {
