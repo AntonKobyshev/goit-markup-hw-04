@@ -157,7 +157,7 @@ header .studio-in-logo {
   max-width: 1600px;
   height: 600px;
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-    url(/images/hero-bckg.jpg);
+    url(../images/hero-bckg.jpg);
   margin-left: auto;
   margin-right: auto;
 }
