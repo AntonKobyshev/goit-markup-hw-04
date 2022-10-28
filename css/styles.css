@@ -21,7 +21,7 @@ html {
   --button-filter-active-color: #2196f3;
   --button-main-active-color: #188ce8;
   --border-color: #ececec;
-  --icon-color: #AFB1B8;
+  --icon-color: #afb1b8;
 
   --card-set-gap: 30px;
   --card-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -137,7 +137,6 @@ header .studio-in-logo {
   display: flex;
   align-items: center;
   padding-inline-start: 0px;
-
 }
 .contacts-header:hover,
 .contacts-header:focus {
@@ -146,8 +145,7 @@ header .studio-in-logo {
 }
 
 .envelope,
-.smartphone
- {
+.smartphone {
   margin-right: 10px;
 }
 
@@ -353,7 +351,6 @@ header .studio-in-logo {
 
 .card-content {
   padding: 30px;
-  
 }
 .card-content-potfolio {
   padding: 20px 24px;
@@ -365,8 +362,7 @@ header .studio-in-logo {
 .social-networks {
   display: flex;
   align-items: center;
-  justify-content: space-between; 
-  
+  justify-content: space-between;
 }
 
 .social-network-icon-bg {
@@ -377,14 +373,11 @@ header .studio-in-logo {
   align-items: center;
   justify-content: center;
   fill: var(--icon-color);
-  }
-
+}
 
 .social-network-icon {
   width: 20px;
   height: 20px;
-  
-  
 }
 .social-network-icon:hover,
 .social-network-icon-bg:hover,
@@ -397,18 +390,18 @@ header .studio-in-logo {
 .clients-list {
   display: flex;
 }
-.clients-list>li:not(:last-child) {
+.clients-list > li:not(:last-child) {
   margin-right: 30px;
 }
 .client-logo-border {
-display: flex;
-width: 170px;
-height: 92px;
-outline: 1px solid var(--icon-color);
-border-radius: 4px;
-align-items: center;
-justify-content: center;
-fill: var(--icon-color);
+  display: flex;
+  width: 170px;
+  height: 92px;
+  outline: 1px solid var(--icon-color);
+  border-radius: 4px;
+  align-items: center;
+  justify-content: center;
+  fill: var(--icon-color);
 }
 
 .client-logo {
@@ -438,8 +431,10 @@ fill: var(--icon-color);
   margin-top: var(--card-set-gap);
   margin-left: var(--card-set-gap);
 }
-.portfolio .item:hover,
-.portfolio .item:focus {
+
+.link-portfolio:focus,
+.link-portfolio:hover {
+  display: block;
   box-shadow: var(--portfolio-card-shadow);
 }
 
@@ -472,9 +467,6 @@ footer {
   background-color: var(--foorter-hero-bg-color);
   padding-top: 60px;
   padding-bottom: 60px;
-}
-footer > .container {
-  text-align: left;
 }
 
 footer .logo {
@@ -523,7 +515,7 @@ footer .studio-in-logo {
 .address-tel:focus {
   color: var(--accent-color);
 }
-.social>h3 {
+.social > p {
   color: var(--white-color);
   font-weight: 700;
   font-size: 14px;
@@ -535,21 +527,26 @@ footer .studio-in-logo {
 .social {
   margin-left: 70px;
 }
-footer>.container {
+footer {
   display: flex;
+  align-items: baseline;
+}
+footer > .container {
+  display: flex;
+  align-items: baseline;
+  text-align: left;
 }
 .social-networks-footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
-
 }
 
 .social-network-icon-bg-footer {
   display: flex;
   width: 44px;
   height: 44px;
-    border-radius: 50%;
+  border-radius: 50%;
   align-items: center;
   justify-content: center;
   fill: var(--white-color);
@@ -569,9 +566,4 @@ footer>.container {
 .social-network-icon-footer:focus,
 .social-network-icon-bg-footer:focus {
   background-color: #2196f3;
-  }
-
-  .social {
-    margin-top: 12px;
-  }
-
+}
